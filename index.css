@@ -1,0 +1,401 @@
+body {
+  background-color: whitesmoke;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 87%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+/* ################ navber section start############### */
+
+/* nav logo section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #8116ff;
+  color: #ffffff;
+}
+nav .logo {
+  text-align: center;
+}
+
+nav .logo h1 {
+  font-weight: 800;
+}
+nav .logo h1 span {
+  color: pink;
+}
+nav .logo p {
+  font-size: x-small;
+}
+
+/* nav menu section */
+
+.menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.menu-wrapper ul {
+  display: flex;
+  align-items: center;
+}
+.menu-wrapper ul li {
+  list-style: none;
+  margin-right: 8px;
+}
+.menu-wrapper ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 12px;
+  transition: 0.4s;
+}
+.menu-wrapper ul li a:hover {
+  background-color: #ffffff;
+  color: #8116ff;
+  border-radius: 5px;
+}
+
+/* #################SALE-RIBBON-SECTION#################### */
+
+.sales-ribbon p {
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+}
+.sales-ribbon p code {
+  color: palevioletred;
+}
+
+/* ###################--BANNER-SECTION-START--#################### */
+.banner-section {
+}
+.banner {
+  width: 100%;
+  height: 450px;
+  background-image: url("./all-photos/pexels-oleksandr-pidvalnyi-3800060.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+}
+.banner-show-text {
+  width: 40%;
+  text-align: justify;
+  padding: 30px 0px 20px 30px;
+  color: #ffffff;
+}
+
+.banner-show-text h4 {
+  color: palevioletred;
+  border-bottom: 1px solid palevioletred;
+}
+.banner-show-text h1 {
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.banner-show-text p {
+  margin-top: 7px;
+  font-size: smaller;
+}
+.button-div {
+  margin: 20px 0px 20px 30px;
+}
+.button-div button {
+  outline: none;
+  border: none;
+  padding: 10px 25px;
+  background-color: #8116ff;
+  color: #ffffff;
+  box-shadow: 1px 2px 1px 1px #6a32aa;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 1000;
+  transition: 0.3s;
+}
+.button-div button:hover {
+  box-shadow: none;
+  background-color: #ffffff;
+  color: #8116ff;
+}
+
+/* ################SUBSCRIBER-SHOW-SECTION############ */
+
+.subscriber-show {
+  background-color: #8116ff;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 60px;
+  margin-top: 80px;
+  border-radius: 9px;
+  text-align: left;
+}
+
+/* ###################collection section#################### */
+
+.collection-wrapper {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.collection-wrapper h1 {
+  font-size: 34px;
+}
+.collection-main {
+  display: flex;
+  grid-template-columns: repeat(1, 5fr);
+  justify-content: space-between;
+  grid-gap: 20px;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+.collection-list {
+  flex-basis: 12%;
+  text-align: left;
+}
+.collection-list h4 {
+  color: #8116ff;
+}
+.collection-list .collection-pra {
+  margin-top: 5px;
+}
+.collection-list .collection-pra p {
+  color: grey;
+}
+
+/* ###############FASHION PIC---01 START################ */
+.fashion-pic-wrapper {
+  margin-top: 300px;
+  padding: 40px;
+  position: relative;
+  margin-left: -10px;
+}
+.fashion-pic01 img {
+  width: 50%;
+  border-radius: 5px 5px 5px 5px;
+  height: 600px;
+  left: -29%;
+}
+.fashion-pic02 img {
+  position: absolute;
+  top: -200px;
+  right: 0px;
+  width: 54%;
+  border-radius: 5px 0px 0px 5px;
+  height: 500px;
+}
+
+.fashion-pic-about {
+  position: absolute;
+  top: 360px;
+  right: 115px;
+  width: 330px;
+  text-align: justify;
+  padding: 15px;
+}
+
+.fashion-pic-about p {
+  margin-top: 15px;
+}
+
+.fashion-pic-about .pic-button {
+  margin-top: 10px;
+}
+.pic-button button {
+  padding: 4px 8px;
+  border: 2px solid #8116ff;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: black;
+  font-weight: 800;
+}
+.pic-button button:hover {
+  border: 2px solid black;
+  background-color: #ffffff;
+  color: #8116ff;
+}
+
+/* #############BROWSE ITEM START############## */
+.browse-item-wrapper {
+  margin: 60px;
+}
+.browse-items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 10px;
+  padding: 30px;
+}
+.browse-item {
+  flex-basis: 15%;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+}
+.browse-item:hover {
+  transform: translateY(-10px);
+  box-shadow: none;
+}
+.item-imge img {
+  width: 180px;
+  height: 180px;
+  border-radius: 5px;
+}
+.item-text-dtls {
+  width: 180px;
+  height: 180px;
+}
+.item-text-dtls h3 {
+}
+.item-text-dtls p {
+  text-align: justify;
+}
+.item-btn button {
+  padding: 4px 8px;
+  border: 2px solid #8116ff;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.item-btn button:hover {
+  border: 2px solid black;
+  background-color: #ffffff;
+  color: #8116ff;
+}
+/* #########fashion pic section02########### */
+
+.fashion-pic-wrapper02 {
+  margin-top: 300px;
+  padding: 40px;
+  position: relative;
+  margin-left: -10px;
+}
+.fashion-pic-wrapper02 .fashion-pic01 img {
+  width: 50%;
+  border-radius: 5px 5px 5px 5px;
+  height: 600px;
+  left: -29%;
+}
+.fashion-pic-wrapper02 .fashion-pic02 img {
+  position: absolute;
+  top: -200px;
+  right: 0px;
+  width: 54%;
+  border-radius: 5px 0px 0px 5px;
+  height: 500px;
+}
+
+.fashion-pic-wrapper02.fashion-pic-about {
+  position: absolute;
+  top: 360px;
+  right: 115px;
+  width: 330px;
+  text-align: justify;
+  padding: 15px;
+}
+
+.fashion-pic-about p {
+  margin-top: 15px;
+}
+
+.fashion-pic-about .pic-button {
+  margin-top: 10px;
+}
+.pic-button button {
+  padding: 4px 8px;
+  border: 2px solid #8116ff;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: black;
+  font-weight: 800;
+}
+.pic-button button:hover {
+  border: 2px solid black;
+  background-color: #ffffff;
+  color: #8116ff;
+}
+
+/*  EMAIL-SUBSCRIBE-BUTTON  */
+
+.sub-wrapper {
+  background-color: #8116ff;
+  width: 65%;
+  height: 160px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.input-div {
+  margin-top: 10px;
+}
+.input-div input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+}
+#input-email {
+  width: 240px;
+  font-weight: bold;
+}
+#ssubmit {
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: #94bdf9;
+  color: black;
+}
+#ssubmit:hover {
+  background-color: gray;
+}
+
+/* #####FOOTER SECTION START##### */
+.footer-div {
+  margin-top: 50px;
+  width: 100%;
+  height: 300px;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  text-align: center;
+
+  position: relative;
+}
+.footer {
+  position: absolute;
+  top: 40%;
+  left: 41%;
+}
+.footer p {
+  font-size: x-small;
+}
+.footer span {
+  color: palevioletred;
+}
+.icon-div {
+  margin-top: 10px;
+  cursor: pointer;
+}
